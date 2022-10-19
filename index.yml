@@ -119,6 +119,14 @@ fusion360:
  Icon: fusion360.png
  Event: fusion360.exe
  
+logosbible:
+ Arch: win64
+ Name: Logos Bible Software
+ Description: Logos Bible Software is a powerful Bible study and sermon prep platform that allows you to study Scripture and consult commentaries, devotionals, Bible dictionaries, and more.
+ Grade: Silver
+ Category: Software
+ Icon: LogosIcon.ico 
+ 
 pokemoninfinity:
  Arch: win64
  Name: Pokemon Infinity
