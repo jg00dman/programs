@@ -1,0 +1,38 @@
+Name: logosbible
+Description: Logos Bible Software is a powerful Bible study and sermon prep platform that allows you to study Scripture and consult commentaries, devotionals, Bible dictionaries, and more.
+Grade: Silver
+Arch: win64
+
+# Required config
+# winver 10
+# fontsmooth=rgb
+# renderer=gdi
+# corefonts?
+# d3dcompiler_47
+# wine 7.18 staging or higher
+# scripts for settings, inc toggle logging, clear indexes, run indexer only
+
+Dependencies:
+- corefonts
+- d3dcompiler_47
+
+Parameters:
+
+Executable:
+  name: Logos Bible Software
+  icon: logosbible.png
+  file: Logos.exe
+  path: Path to Logos exe
+  arguments: ""
+
+Steps:
+- action: install_exe
+  file_name: LogosSetup.exe
+  url: local
+  arguments: ""
+
+Checks:
+  files:
+    - Path to Logos exe
+    
+    Footer
